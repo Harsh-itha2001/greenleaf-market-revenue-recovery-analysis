@@ -49,6 +49,9 @@ The objective was to identify:
 * Revenue Lost by Product Category
 
 ---
+![GreenLeaf Market Dashboard Preview](green_leaf_market_dashboard.jpeg)
+
+---
 
 ## Key Insights
 
@@ -88,10 +91,11 @@ The dataset contains over 10,000 order records including:
 
 ## Files Included
 
-| File                                                              | Description      |
-| ----------------------------------------------------------------- | ---------------- |
-| GreenLeaf Market - Operations Analytics Dashboard - Dashboard.pdf | Dashboard Report |
-| GreenLeaf_Market_10k_Orders.csv                                   | Source Dataset   |
+| File                                                              | Description       |
+| ----------------------------------------------------------------- | ----------------  |
+| GreenLeaf Market - Operations Analytics Dashboard - Dashboard.pdf | Dashboard Report  |
+| GreenLeaf_Market_10k_Orders.csv                                   | Source Dataset    |
+| green_leaf_market_dashboard.jpeg                                  | Dashboard_preview | 
 
 ---
 
