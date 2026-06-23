@@ -1,106 +1,88 @@
 # GreenLeaf Market | Executive Performance & Revenue Recovery Dashboard
 
 ## Project Links
-
-* Live Dashboard (Google Sheets): https://docs.google.com/spreadsheets/d/1wLRA-gia_mQFnJnWGKiCArVACQkchETd426_ynd8ra4/edit?gid=489402324#gid=489402324
+- 📊 Live Dashboard (Google Sheets): [View Dashboard](https://docs.google.com/spreadsheets/d/1wLRA-gia_mQFnJnWGKiCArVACQkchETd426_ynd8ra4/edit?gid=489402324#gid=489402324)
 
 ---
 
 ## Project Overview
 
-This project analyzes operational performance, courier efficiency, return rates, and revenue leakage for GreenLeaf Market using Advanced Excel and Google Sheets.
-
-The dashboard identifies key operational bottlenecks and provides strategic recommendations to improve profitability.
+GreenLeaf Market was experiencing increasing product returns and operational losses across courier partners and product categories. This project analyzes **10,000+ order records** to identify revenue leakage, courier inefficiencies, and profitability gaps — and delivers an executive dashboard with strategic recovery recommendations.
 
 ---
 
 ## Business Problem
 
-GreenLeaf Market was experiencing increasing product returns and operational losses across courier partners and product categories.
+GreenLeaf Market's overall **return rate stood at 4.89%**, resulting in **₹3,52,970 in financial leakage** against total revenue of **₹62,95,680**. Leadership needed clarity on:
 
-The objective was to identify:
-
-* High-return courier partners
-* Categories causing maximum revenue leakage
-* Financial impact of returns
-* Profit recovery opportunities
+- Which courier partners were driving the highest return rates
+- Which product categories were bleeding the most revenue
+- What actions could recover profitability
 
 ---
 
-## Tools & Technologies
+## Dashboard Preview
 
-* Advanced Excel
-* Google Sheets
-* Pivot Tables
-* Pivot Charts
-* KPI Cards
-* Dashboard Design
-* Business Analytics
-
----
-
-## Dashboard KPIs
-
-* Total Revenue
-* Net Profit
-* Return Rate
-* Financial Leakage
-* Courier Performance
-* Revenue Lost by Product Category
-
----
 ![GreenLeaf Market Dashboard Preview](green_leaf_market_dashboard.jpeg)
 
 ---
 
 ## Key Insights
 
-### Courier Performance
+### 💸 Financial Overview
+| Metric | Value |
+|---|---|
+| Total Revenue | ₹62,95,680 |
+| Net Profit | ₹39,02,620 |
+| Return Rate | 4.89% |
+| Financial Leakage | ₹3,52,970 |
 
-* Shadowfax recorded the highest return rate (9.29%)
-* Delhivery showed moderate performance
-* Bluedart achieved the lowest return rate
+### 🚚 Courier Performance
+| Courier Partner | Return Rate |
+|---|---|
+| Bluedart | 1.82% ✅ Lowest |
+| Delhivery | 3.61% |
+| Shadowfax | 9.29% ❌ Highest |
 
-### Revenue Leakage Analysis
+Shadowfax's return rate is **5x higher than Bluedart** — the single biggest operational risk.
 
-* Live Plants generated the highest revenue loss
-* Planters & Pots represented the second-largest leakage source
-* These categories contributed most of the operational leakage
+### 📦 Revenue Leakage by Product Category
+| Category | Revenue Lost |
+|---|---|
+| Live Plants | ₹2,03,900 |
+| Planters & Pots | ₹1,00,080 |
+| Gardening Tools | ₹31,190 |
+| Organic Fertilizers | ₹17,800 |
 
-### Strategic Recommendation
+Live Plants and Planters & Pots together account for **86% of total financial leakage**.
 
-* Redirect high-risk deliveries away from Shadowfax
-* Increase order allocation to Bluedart
-* Improve delivery success rates
-* Recover an estimated ₹2.4 Lakhs in profit
+### 🎯 Strategic Recommendation
+- Redirect all Live Plant and Planter orders away from Shadowfax to Bluedart
+- Estimated profit recovery: **₹2,40,000+**
+- Trigger return-rate alerts when any courier exceeds 5% threshold
+
+---
+
+## Tools & Technologies
+`Advanced Excel` `Google Sheets` `Pivot Tables` `Pivot Charts` `KPI Cards` `Dashboard Design` `Business Analytics`
 
 ---
 
 ## Dataset
-
-The dataset contains over 10,000 order records including:
-
-* Product Category
-* Courier Partner
-* Revenue
-* Return Status
-* Profit Metrics
-* Operational Performance Indicators
+10,000+ order records including Product Category, Courier Partner, Revenue, Return Status, Profit Metrics, and Operational Performance Indicators.
 
 ---
 
 ## Files Included
 
-| File                                                              | Description       |
-| ----------------------------------------------------------------- | ----------------  |
-| GreenLeaf Market - Operations Analytics Dashboard - Dashboard.pdf | Dashboard Report  |
-| GreenLeaf_Market_10k_Orders.csv                                   | Source Dataset    |
-| green_leaf_market_dashboard.jpeg                                  | Dashboard_preview | 
+| File | Description |
+|---|---|
+| GreenLeaf Market - Operations Analytics Dashboard - Dashboard.pdf | Dashboard Report |
+| GreenLeaf_Market_10k_Orders.csv | Source Dataset |
+| green_leaf_market_dashboard.jpeg | Dashboard Preview |
 
 ---
 
 ## Author
-
-Harshitha S
-
-Aspiring Data Analyst
+**Harshitha S** — Aspiring Data Analyst
+[LinkedIn](https://www.linkedin.com/in/harshitha-s-167639256) | [GitHub](https://github.com/Harsh-itha2001)
